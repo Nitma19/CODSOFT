@@ -1,0 +1,57 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >>
+   /MediaBox [0 0 612 792]
+   /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<< /Length 264 >>
+stream
+BT
+/F1 24 Tf
+100 700 Td
+(NITESH GOPAL) Tj
+ET
+BT
+/F1 14 Tf
+100 660 Td
+(B.Tech Information Technology Student) Tj
+ET
+BT
+/F1 12 Tf
+100 625 Td
+(RMD Engineering College, Tamilnadu) Tj
+ET
+BT
+/F1 12 Tf
+100 595 Td
+(CGPA: 8.4 | Domain: AI & Cyber Security) Tj
+ET
+BT
+/F1 12 Tf
+100 565 Td
+(Email: niteshgopal@example.com | Phone: +91 98765 43210) Tj
+ET
+endstream
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000009 00000 n 
+0000000059 00000 n 
+0000000117 00000 n 
+0000000303 00000 n 
+trailer
+<< /Size 5 /Root 1 0 R >>
+startxref
+618
+%%EOF

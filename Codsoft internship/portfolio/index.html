@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitesh Gopal | B.Tech IT Student & Tech Enthusiast</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Nitesh Gopal, a B.Tech IT sophomore at RMD Engineering College specializing in AI and Cyber Security.">
+    <meta name="keywords" content="Nitesh Gopal, RMD Engineering College, B.Tech IT, AI, Cyber Security, Portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Nitesh Gopal">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nitesh Gopal | B.Tech IT Student & Tech Enthusiast">
+    <meta property="og:description" content="Explore my projects, skills, and academic achievements in AI and Cyber Security.">
+    <meta property="og:image" content="assets/avatar.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Header / Navigation -->
+    <header id="main-header" class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo" id="logo-link">
+                <span class="logo-accent">&lt;</span>Nitesh<span class="logo-accent">.G/&gt;</span>
+            </a>
+            
+            <!-- Desktop Navigation Links -->
+            <ul class="nav-links" id="desktop-nav-links">
+                <li><a href="#about" class="nav-link active">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <!-- Controls (Theme Toggle & Mobile Menu Button) -->
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light/dark theme" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+        
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav" id="mobile-nav-menu">
+            <ul class="mobile-nav-links">
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+                <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                <li><a href="#resume" class="mobile-nav-link">Resume</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-grid">
+                <div class="hero-text-content">
+                    <span class="hero-badge animate-fade-in">B.Tech IT Undergrad</span>
+                    <h1 class="hero-title animate-slide-up">
+                        Exploring the horizons of <span class="gradient-text">AI & Security</span>.
+                    </h1>
+                    <p class="hero-subtitle animate-slide-up-delayed">
+                        Hi, I'm <strong class="highlight-text">Nitesh Gopal</strong>. A 2nd-year B.Tech Information Technology student at RMD Engineering College, Tamilnadu, eager to learn and build secure, intelligent systems.
+                    </p>
+                    <div class="hero-ctas animate-slide-up-delayed-more">
+                        <a href="#projects" id="hero-view-work-btn" class="btn btn-primary">View My Projects</a>
+                        <a href="#contact" id="hero-contact-btn" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+                </div>
+                <div class="hero-visual animate-fade-in-delayed">
+                    <div class="hero-blob-wrapper">
+                        <div class="hero-blob"></div>
+                        <div class="hero-blob-outline"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator" id="scroll-indicator-icon">
+                <a href="#about" aria-label="Scroll down">
+                    <span class="mouse-icon"><span class="wheel"></span></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="section-container">
+                <h2 class="section-title"><span class="accent-line"></span>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <div class="avatar-card">
+                            <img src="assets/avatar.png" alt="Portrait of Nitesh Gopal" class="avatar-img" id="avatar-img">
+                            <div class="avatar-card-glow"></div>
+                        </div>
+                    </div>
+                    <div class="about-details">
+                        <h3 class="about-tagline">Connecting intelligent algorithms with secure systems.</h3>
+                        <p class="about-text">
+                            I am a student developer based in Tamilnadu, India. Currently pursuing my B.Tech in Information Technology at RMD Engineering College, I maintain a strong academic standing with a CGPA of 8.4. My core academic and personal interest lies at the intersection of Artificial Intelligence and Cyber Security.
+                        </p>
+                        <p class="about-text">
+                            I am passionate about learning, experimenting with new frameworks, and developing secure software solutions. I am actively looking for opportunities to collaborate on research, open-source projects, and internships to sharpen my skills.
+                        </p>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-number">2nd Year</span>
+                                <span class="stat-label">B.Tech IT Student</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">8.4</span>
+                                <span class="stat-label">Current CGPA</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Eager to Learn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section scroll-reveal">
+            <div class="section-container">
+                <h2 class="section-title"><span class="accent-line"></span>My Expertise</h2>
+                <div class="skills-grid">
+                    <!-- AI & Security Skills -->
+                    <div class="skills-category-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3 class="category-title">AI & Cyber Security</h3>
+                        <p class="category-desc">Deepening knowledge in security protocols and AI development.</p>
+                        <ul class="skills-list" id="ai-security-skills-list">
+                            <li><span class="skill-badge">Machine Learning</span></li>
+                            <li><span class="skill-badge">Network Security</span></li>
+                            <li><span class="skill-badge">Cryptography</span></li>
+                            <li><span class="skill-badge">Data Analysis</span></li>
+                            <li><span class="skill-badge">Linux Administration</span></li>
+                            <li><span class="skill-badge">Threat Modeling</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Programming & Web -->
+                    <div class="skills-category-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="category-title">Programming & Web</h3>
+                        <p class="category-desc">Building functional web interfaces and writing clean backend logic.</p>
+                        <ul class="skills-list" id="programming-skills-list">
+                            <li><span class="skill-badge">Python</span></li>
+                            <li><span class="skill-badge">Java / C</span></li>
+                            <li><span class="skill-badge">HTML5 / CSS3</span></li>
+                            <li><span class="skill-badge">JavaScript (ES6+)</span></li>
+                            <li><span class="skill-badge">SQL (MySQL/Postgres)</span></li>
+                            <li><span class="skill-badge">Node.js basics</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Workflow & Learning -->
+                    <div class="skills-category-card">
+                        <div class="category-icon-wrapper">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="category-title">Academic & Tools</h3>
+                        <p class="category-desc">Version control, styling, and general student learning workspace.</p>
+                        <ul class="skills-list" id="academic-skills-list">
+                            <li><span class="skill-badge">Git & GitHub</span></li>
+                            <li><span class="skill-badge">VS Code</span></li>
+                            <li><span class="skill-badge">Algorithms & DSA</span></li>
+                            <li><span class="skill-badge">Object-Oriented Design</span></li>
+                            <li><span class="skill-badge">Cyber Incident Basics</span></li>
+                            <li><span class="skill-badge">Continuous Learning</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="section-container">
+                <h2 class="section-title"><span class="accent-line"></span>Selected Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="assets/project1.png" alt="SaaS Analytics Dashboard Project Mockup" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link-icon" id="project1-github-link" aria-label="View source code on GitHub" title="View Source Code"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" class="project-link-icon" id="project1-live-link" aria-label="View live demo of SaaS Analytics Dashboard" title="View Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <span class="project-category">Artificial Intelligence</span>
+                            <h3 class="project-name" id="project1-title">AI Malware Classifier</h3>
+                            <p class="project-desc">
+                                A machine learning prototype designed to analyze binary file characteristics and classify them as benign or malware based on PE header analysis.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Scikit-Learn</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">Security</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="assets/project2.png" alt="Secure Encrypted Chat Application Mockup" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link-icon" id="project2-github-link" aria-label="View source code on GitHub" title="View Source Code"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" class="project-link-icon" id="project2-live-link" aria-label="View live demo of Secure Chat Application" title="View Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <span class="project-category">Cyber Security</span>
+                            <h3 class="project-name" id="project2-title">E2E Encrypted Chat</h3>
+                            <p class="project-desc">
+                                A Node.js and Socket.io socket chat prototype incorporating Diffie-Hellman key exchange and AES-256-GCM encryption for secure messaging.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Socket.io</span>
+                                <span class="tag">Crypto API</span>
+                                <span class="tag">WebSockets</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume-section scroll-reveal">
+            <div class="section-container">
+                <div class="resume-glass-card">
+                    <div class="resume-content">
+                        <div class="resume-icon">
+                            <i class="fa-regular fa-file-pdf"></i>
+                        </div>
+                        <h2 class="resume-title" id="resume-section-title">Want to see my full professional history?</h2>
+                        <p class="resume-subtitle">
+                            Download my comprehensive resume for detailed information about my employment history, technical stack details, and education credentials.
+                        </p>
+                        <a href="assets/resume.pdf" download="Nitesh_Gopal_Resume.pdf" id="download-resume-btn" class="btn btn-primary btn-with-icon">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="section-container">
+                <h2 class="section-title"><span class="accent-line"></span>Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info-panel">
+                        <h3 class="contact-subtitle">Let's build something amazing together.</h3>
+                        <p class="contact-text">
+                            Whether you're looking to start a new project, scale an existing system, or just want to chat, I'm always open to discussing new opportunities.
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method-item">
+                                <div class="contact-method-icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div class="contact-method-details">
+                                    <span class="contact-label">Email</span>
+                                    <a href="mailto:niteshgopal@example.com" class="contact-value" id="contact-email">niteshgopal@example.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method-item">
+                                <div class="contact-method-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="contact-method-details">
+                                    <span class="contact-label">Phone</span>
+                                    <a href="tel:+919876543210" class="contact-value" id="contact-phone">+91 98765 43210</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method-item">
+                                <div class="contact-method-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="contact-method-details">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value" id="contact-location">Tamilnadu, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-panel">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="form-name">Name</label>
+                                    <input type="text" id="form-name" class="form-control" placeholder="Your Name" required>
+                                    <span class="error-message" id="name-error">Please enter your name</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email</label>
+                                    <input type="email" id="form-email" class="form-control" placeholder="your.email@example.com" required>
+                                    <span class="error-message" id="email-error">Please enter a valid email address</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" class="form-control" placeholder="How can I help you?" required>
+                                <span class="error-message" id="subject-error">Please enter a subject</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" class="form-control" rows="5" placeholder="Tell me about your project..." required></textarea>
+                                <span class="error-message" id="message-error">Please enter a message</span>
+                            </div>
+                            <button type="submit" id="submit-form-btn" class="btn btn-primary btn-full-width">
+                                <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div class="form-status" id="form-status-msg"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-accent">&lt;</span>Nitesh<span class="logo-accent">.G/&gt;</span>
+                </a>
+                <p class="footer-tagline">Exploring AI and Cyber Security, one secure project at a time.</p>
+            </div>
+            
+            <div class="footer-links-wrapper">
+                <div class="footer-nav">
+                    <h4 class="footer-heading">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#skills" class="footer-link">Skills</a></li>
+                        <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#resume" class="footer-link">Resume</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-socials">
+                    <h4 class="footer-heading">Follow Me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-link" id="footer-social-github" aria-label="Visit Alex Morgan's GitHub profile"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-link" id="footer-social-linkedin" aria-label="Visit Alex Morgan's LinkedIn profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon-link" id="footer-social-twitter" aria-label="Visit Alex Morgan's Twitter profile"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright" id="copyright-notice">&copy; 2026 Nitesh Gopal. All rights reserved. Created with pure HTML, CSS, and JS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
