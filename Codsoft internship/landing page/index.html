@@ -5,33 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NeuroMind AI – The Future of Intelligent Innovation</title>
   
-  <!-- SEO Meta Tags -->
   <meta name="description" content="Unlock the power of artificial intelligence with NeuroMind AI. Empowering developers, students, and businesses with advanced neural networks, real-time analytics, and machine learning solutions.">
   <meta name="keywords" content="AI platform, artificial intelligence, machine learning, automation, data intelligence, neural networks, predictive analytics">
   <meta name="author" content="NeuroMind AI">
   
-  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="NeuroMind AI – The Future of Intelligent Innovation">
   <meta property="og:description" content="Unlock the power of artificial intelligence with NeuroMind AI. Elevate productivity, learning, and decision-making.">
   <meta property="og:image" content="assets/hero.png">
   
-  <!-- Google Fonts: Outfit & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   
-  <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <!-- Combined Stylesheet -->
   <style>
 
-    /* ==========================================================================
-       1. Theme Variables & Base Resets
-       ========================================================================== */
+ 
     :root {
-      /* Colors */
       --bg-primary: #03001e;
       --bg-secondary: #0a062c;
       --bg-surface: rgba(10, 6, 44, 0.6);
@@ -52,18 +44,15 @@
       --text-secondary: #a0a5c0;
       --text-muted: #6b708b;
 
-      /* Glassmorphism Settings */
       --glass-bg: rgba(255, 255, 255, 0.02);
       --glass-border: rgba(255, 255, 255, 0.08);
       --glass-border-hover: rgba(255, 255, 255, 0.2);
       --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
       --backdrop-blur: blur(12px);
 
-      /* Fonts */
       --font-family-headings: 'Outfit', sans-serif;
       --font-family-body: 'Inter', sans-serif;
 
-      /* Grid/Layout */
       --max-width: 1240px;
       --transition-fast: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
       --transition-medium: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -92,7 +81,6 @@
       overflow-x: hidden;
     }
 
-    /* Custom Scrollbar */
     ::-webkit-scrollbar {
       width: 10px;
     }
@@ -108,9 +96,6 @@
       background: rgba(138, 35, 135, 0.6);
     }
 
-    /* ==========================================================================
-       2. Background Elements (Canvas & Orbs)
-       ========================================================================== */
     #particle-canvas {
       position: fixed;
       top: 0;
@@ -164,9 +149,7 @@
       100% { transform: translate(50px, 30px) scale(1.1); }
     }
 
-    /* ==========================================================================
-       3. Preloader Screen
-       ========================================================================== */
+   
     .preloader {
       position: fixed;
       top: 0;
@@ -233,10 +216,7 @@
       0%, 100% { opacity: 0.6; }
       50% { opacity: 1; }
     }
-
-    /* ==========================================================================
-       4. Global Typography & Buttons
-       ========================================================================== */
+    
     h1, h2, h3, h4 {
       font-family: var(--font-family-headings);
       font-weight: 700;
@@ -308,7 +288,6 @@
       100% { background-position: 0% 50%; }
     }
 
-    /* Buttons */
     .btn {
       display: inline-flex;
       align-items: center;
@@ -382,7 +361,6 @@
       width: 100%;
     }
 
-    /* Glassmorphism Cards */
     .glass-card {
       background: var(--glass-bg);
       backdrop-filter: var(--backdrop-blur);
@@ -413,9 +391,7 @@
       pointer-events: none;
     }
 
-    /* ==========================================================================
-       5. Header / Navigation
-       ========================================================================== */
+  
     .main-header {
       position: fixed;
       top: 0;
@@ -543,9 +519,7 @@
       transform: translateY(-8px) rotate(-45deg);
     }
 
-    /* ==========================================================================
-       6. Hero Section
-       ========================================================================== */
+
     .hero-section {
       min-height: 100vh;
       display: flex;
@@ -729,9 +703,7 @@
       animation: float 5s infinite ease-in-out alternate-reverse;
     }
 
-    /* ==========================================================================
-       7. Features Grid Section
-       ========================================================================== */
+  
     .features-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -799,9 +771,7 @@
       transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
 
-    /* ==========================================================================
-       8. About & Perks Section
-       ========================================================================== */
+
     .about-grid {
       display: grid;
       grid-template-columns: 1.1fr 0.9fr;
@@ -907,9 +877,7 @@
       color: var(--text-secondary);
     }
 
-    /* ==========================================================================
-       9. Statistics Section (Counters)
-       ========================================================================== */
+  
     .stats-section {
       position: relative;
       padding: 40px 0;
@@ -969,9 +937,6 @@
       letter-spacing: 1.5px;
     }
 
-    /* ==========================================================================
-       10. Services Section
-       ========================================================================== */
     .services-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -1053,9 +1018,6 @@
       transform: translateX(5px);
     }
 
-    /* ==========================================================================
-       11. Testimonials Section
-       ========================================================================== */
     .testimonials-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -1139,9 +1101,6 @@
       color: var(--text-muted);
     }
 
-    /* ==========================================================================
-       12. Call To Action Section
-       ========================================================================== */
     .cta-section {
       position: relative;
       padding: 100px 0;
@@ -1195,9 +1154,7 @@
       gap: 16px;
     }
 
-    /* ==========================================================================
-       13. Contact Form Section
-       ========================================================================== */
+  
     .contact-grid {
       display: grid;
       grid-template-columns: 0.9fr 1.1fr;
@@ -1393,9 +1350,7 @@
       display: block;
     }
 
-    /* ==========================================================================
-       14. Footer Section
-       ========================================================================== */
+   
     .footer-section {
       background: #020017;
       border-top: 1px solid rgba(255, 255, 255, 0.04);
@@ -1550,9 +1505,7 @@
       color: var(--accent-cyan);
     }
 
-    /* ==========================================================================
-       15. Interaction Styles (Toasts, Back to Top, Reveal Effects)
-       ========================================================================== */
+  
     .back-to-top {
       position: fixed;
       bottom: 30px;
@@ -1662,9 +1615,7 @@
     [data-delay="300"] { transition-delay: 0.3s; }
     [data-delay="400"] { transition-delay: 0.4s; }
 
-    /* ==========================================================================
-       16. Responsive Media Breakpoints
-       ========================================================================== */
+
     @media screen and (max-width: 1024px) {
       html {
         font-size: 15px;
@@ -1839,7 +1790,6 @@
 </head>
 <body>
 
-  <!-- Preloader Screen -->
   <div id="preloader" class="preloader">
     <div class="loader-container">
       <div class="loader-logo">Neuro<span>Mind</span></div>
@@ -1848,15 +1798,12 @@
     </div>
   </div>
 
-  <!-- Particle & Neural Network Canvas Background -->
   <canvas id="particle-canvas"></canvas>
 
-  <!-- Background Decorative Glowing Lights -->
   <div class="glow-orb glow-orb-1"></div>
   <div class="glow-orb glow-orb-2"></div>
   <div class="glow-orb glow-orb-3"></div>
 
-  <!-- Header Section -->
   <header class="main-header" id="header">
     <div class="header-container">
       <a href="#home" class="logo" id="logo-link">
@@ -1864,7 +1811,6 @@
         <span>Neuro<span class="logo-accent">Mind</span></span>
       </a>
 
-      <!-- Desktop & Mobile Navbar Navigation Links -->
       <nav class="navbar" id="navbar">
         <ul class="nav-menu">
           <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
@@ -1877,7 +1823,6 @@
         <a href="#contact" class="btn btn-primary nav-cta-mobile">Get Started</a>
       </nav>
 
-      <!-- CTA Button for Desktop -->
       <div class="header-actions">
         <a href="#contact" class="btn btn-primary nav-cta">Get Started</a>
         <button class="hamburger-menu" id="hamburger-btn" aria-label="Toggle Navigation Menu">
@@ -1890,7 +1835,6 @@
   </header>
 
   <main>
-    <!-- Hero Section -->
     <section id="home" class="hero-section">
       <div class="section-container hero-container">
         <div class="hero-content reveal-left">
@@ -1936,7 +1880,6 @@
       </div>
     </section>
 
-    <!-- Features Section -->
     <section id="features" class="features-section">
       <div class="section-container">
         <div class="section-header reveal-up">
@@ -1948,7 +1891,6 @@
         </div>
         
         <div class="features-grid">
-          <!-- Feature Card 1 -->
           <div class="feature-card glass-card reveal-up">
             <div class="card-glow"></div>
             <div class="card-icon-container bg-gradient-purple">
@@ -1960,7 +1902,6 @@
             </p>
           </div>
 
-          <!-- Feature Card 2 -->
           <div class="feature-card glass-card reveal-up">
             <div class="card-glow"></div>
             <div class="card-icon-container bg-gradient-cyan">
@@ -1972,7 +1913,6 @@
             </p>
           </div>
 
-          <!-- Feature Card 3 -->
           <div class="feature-card glass-card reveal-up">
             <div class="card-glow"></div>
             <div class="card-icon-container bg-gradient-pink">
@@ -1984,7 +1924,6 @@
             </p>
           </div>
 
-          <!-- Feature Card 4 -->
           <div class="feature-card glass-card reveal-up">
             <div class="card-glow"></div>
             <div class="card-icon-container bg-gradient-orange">
@@ -1996,7 +1935,6 @@
             </p>
           </div>
 
-          <!-- Feature Card 5 -->
           <div class="feature-card glass-card reveal-up">
             <div class="card-glow"></div>
             <div class="card-icon-container bg-gradient-blue">
@@ -2008,7 +1946,6 @@
             </p>
           </div>
 
-          <!-- Feature Card 6 -->
           <div class="feature-card glass-card reveal-up">
             <div class="card-glow"></div>
             <div class="card-icon-container bg-gradient-green">
@@ -2023,7 +1960,6 @@
       </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="about-section">
       <div class="section-container about-grid">
         <div class="about-content reveal-left">
@@ -2036,7 +1972,6 @@
             Through high-performance GPU clustering and modular neural architecture, we deliver speed and scale that adapts to the size of your ambition.
           </p>
 
-          <!-- Core stats/progress bars -->
           <div class="about-progress-group">
             <div class="progress-item">
               <div class="progress-info">
@@ -2082,7 +2017,6 @@
             </div>
           </div>
 
-          <!-- Perk 2 -->
           <div class="perk-card glass-card">
             <div class="perk-icon-wrapper text-purple">
               <i class="fa-solid fa-users"></i>
@@ -2093,7 +2027,6 @@
             </div>
           </div>
 
-          <!-- Perk 3 -->
           <div class="perk-card glass-card">
             <div class="perk-icon-wrapper text-pink">
               <i class="fa-solid fa-headset"></i>
@@ -2104,7 +2037,6 @@
             </div>
           </div>
 
-          <!-- Perk 4 -->
           <div class="perk-card glass-card">
             <div class="perk-icon-wrapper text-orange">
               <i class="fa-solid fa-shield-halved"></i>
@@ -2118,32 +2050,27 @@
       </div>
     </section>
 
-    <!-- Statistics Section -->
     <section class="stats-section" id="stats">
       <div class="stats-bg-gradient"></div>
       <div class="section-container stats-grid">
-        <!-- Stat Item 1 -->
         <div class="stat-item reveal-up">
           <div class="stat-icon"><i class="fa-solid fa-user-group"></i></div>
           <div class="stat-number" data-target="10000">0</div>
           <div class="stat-label">Active Users</div>
         </div>
 
-        <!-- Stat Item 2 -->
         <div class="stat-item reveal-up" data-delay="100">
           <div class="stat-icon"><i class="fa-solid fa-building"></i></div>
           <div class="stat-number" data-target="500">0</div>
           <div class="stat-label">Global Enterprise Partners</div>
         </div>
 
-        <!-- Stat Item 3 -->
         <div class="stat-item reveal-up" data-delay="200">
           <div class="stat-icon"><i class="fa-solid fa-microchip"></i></div>
           <div class="stat-number" data-target="1000000">0</div>
           <div class="stat-label">Predictions Executed</div>
         </div>
 
-        <!-- Stat Item 4 -->
         <div class="stat-item reveal-up" data-delay="300">
           <div class="stat-icon"><i class="fa-solid fa-face-smile"></i></div>
           <div class="stat-number" data-target="99">0</div>
@@ -2152,7 +2079,6 @@
       </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services" class="services-section">
       <div class="section-container">
         <div class="section-header reveal-up">
@@ -2164,7 +2090,6 @@
         </div>
 
         <div class="services-grid">
-          <!-- Service Card 1 -->
           <div class="service-card glass-card reveal-up">
             <div class="service-icon-bg bg-gradient-blue">
               <i class="fa-solid fa-brain"></i>
@@ -2179,7 +2104,6 @@
             <a href="#contact" class="service-link">Consult details <i class="fa-solid fa-arrow-right-long"></i></a>
           </div>
 
-          <!-- Service Card 2 -->
           <div class="service-card glass-card reveal-up" data-delay="100">
             <div class="service-icon-bg bg-gradient-purple">
               <i class="fa-solid fa-sliders"></i>
@@ -2194,7 +2118,6 @@
             <a href="#contact" class="service-link">Consult details <i class="fa-solid fa-arrow-right-long"></i></a>
           </div>
 
-          <!-- Service Card 3 -->
           <div class="service-card glass-card reveal-up" data-delay="200">
             <div class="service-icon-bg bg-gradient-pink">
               <i class="fa-solid fa-database"></i>
@@ -2212,7 +2135,6 @@
       </div>
     </section>
 
-    <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials-section">
       <div class="section-container">
         <div class="section-header reveal-up">
@@ -2224,7 +2146,6 @@
         </div>
 
         <div class="testimonials-grid">
-          <!-- Testimonial 1 -->
           <div class="testimonial-card glass-card reveal-up">
             <div class="rating">
               <i class="fa-solid fa-star"></i>
@@ -2247,7 +2168,6 @@
             </div>
           </div>
 
-          <!-- Testimonial 2 -->
           <div class="testimonial-card glass-card reveal-up" data-delay="100">
             <div class="rating">
               <i class="fa-solid fa-star"></i>
@@ -2270,7 +2190,6 @@
             </div>
           </div>
 
-          <!-- Testimonial 3 -->
           <div class="testimonial-card glass-card reveal-up" data-delay="200">
             <div class="rating">
               <i class="fa-solid fa-star"></i>
@@ -2296,7 +2215,6 @@
       </div>
     </section>
 
-    <!-- Call To Action Section -->
     <section class="cta-section">
       <div class="cta-glow-bg"></div>
       <div class="section-container cta-container reveal-up">
@@ -2311,7 +2229,6 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact-section">
       <div class="section-container">
         <div class="section-header reveal-up">
@@ -2323,7 +2240,6 @@
         </div>
 
         <div class="contact-grid">
-          <!-- Contact Info Panel -->
           <div class="contact-info-panel glass-card reveal-left">
             <h3>Contact Information</h3>
             <p>Our engineering support and business consulting teams are standing by to assist you.</p>
@@ -2354,7 +2270,6 @@
               </div>
             </div>
 
-            <!-- Social Links inside panel -->
             <div class="contact-socials">
               <span class="socials-label">Connect Socially:</span>
               <div class="social-icons">
@@ -2366,7 +2281,6 @@
             </div>
           </div>
 
-          <!-- Contact Form Panel -->
           <div class="contact-form-panel glass-card reveal-right">
             <form id="contact-form" novalidate>
               <div class="form-row">
@@ -2412,10 +2326,8 @@
     </section>
   </main>
 
-  <!-- Footer Section -->
   <footer class="footer-section">
     <div class="section-container footer-grid">
-      <!-- Footer Info -->
       <div class="footer-info">
         <a href="#home" class="logo footer-logo">
           <i class="fa-solid fa-brain logo-icon"></i>
@@ -2432,7 +2344,6 @@
         </div>
       </div>
 
-      <!-- Quick Links -->
       <div class="footer-links">
         <h4>Navigation</h4>
         <ul>
@@ -2444,7 +2355,6 @@
         </ul>
       </div>
 
-      <!-- Resources Links -->
       <div class="footer-links">
         <h4>Resources</h4>
         <ul>
@@ -2456,7 +2366,6 @@
         </ul>
       </div>
 
-      <!-- Newsletter -->
       <div class="footer-newsletter">
         <h4>Newsletter</h4>
         <p>Subscribe for deep learning research digests and model update notifications.</p>
@@ -2467,7 +2376,6 @@
       </div>
     </div>
 
-    <!-- Footer Bottom -->
     <div class="footer-bottom">
       <div class="section-container bottom-container">
         <p class="copyright">Copyright &copy; 2026 NeuroMind AI. All rights reserved.</p>
@@ -2479,22 +2387,18 @@
     </div>
   </footer>
 
-  <!-- Back-to-Top Button -->
   <button id="back-to-top" class="back-to-top" aria-label="Scroll Back To Top">
     <i class="fa-solid fa-arrow-up"></i>
   </button>
 
-  <!-- Toast Notification Container -->
   <div id="toast-container" class="toast-container"></div>
 
-  <!-- Embedded JavaScript -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
 
-      /* ==========================================================================
-         1. Preloader Control
-         ========================================================================== */
-      const preloader = document.getElementById('preloader');
+      
+      
+    const preloader = document.getElementById('preloader');
       
       window.addEventListener('load', () => {
         setTimeout(() => {
@@ -2505,7 +2409,6 @@
         }, 800);
       });
 
-      // Fallback
       setTimeout(() => {
         if (!preloader.classList.contains('fade-out')) {
           preloader.classList.add('fade-out');
@@ -2513,9 +2416,6 @@
       }, 3000);
 
 
-      /* ==========================================================================
-         2. Interactive Neural Particle Canvas
-         ========================================================================== */
       const canvas = document.getElementById('particle-canvas');
       const ctx = canvas.getContext('2d');
 
@@ -2660,10 +2560,6 @@
         initParticles();
       });
 
-
-      /* ==========================================================================
-         3. Mobile Hamburger Navigation Menu
-         ========================================================================== */
       const hamburgerBtn = document.getElementById('hamburger-btn');
       const navbar = document.getElementById('navbar');
       const navLinks = document.querySelectorAll('.nav-link');
@@ -2687,9 +2583,6 @@
       });
 
 
-      /* ==========================================================================
-         4. Sticky Header Behavior & Active Nav Highlights
-         ========================================================================== */
       const header = document.getElementById('header');
       const sections = document.querySelectorAll('section');
 
@@ -2718,9 +2611,6 @@
       });
 
 
-      /* ==========================================================================
-         5. Scroll Reveal Intersection Observer
-         ========================================================================== */
       const revealElements = document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right');
       
       const revealObserver = new IntersectionObserver((entries, observer) => {
@@ -2740,9 +2630,6 @@
       });
 
 
-      /* ==========================================================================
-         6. Visual Metric Counter Animations
-         ========================================================================== */
       const statNumbers = document.querySelectorAll('.stat-number');
       const statsSection = document.getElementById('stats');
 
@@ -2795,10 +2682,6 @@
         statsObserver.observe(statsSection);
       }
 
-
-      /* ==========================================================================
-         7. Hover Card Mouse Glow Position Tracker
-         ========================================================================== */
       const glassCards = document.querySelectorAll('.glass-card');
 
       glassCards.forEach(card => {
@@ -2813,9 +2696,6 @@
       });
 
 
-      /* ==========================================================================
-         8. Contact Form & Newsletter Validation with Custom Toasts
-         ========================================================================== */
       const contactForm = document.getElementById('contact-form');
       const toastContainer = document.getElementById('toast-container');
       const newsletterForm = document.getElementById('newsletter-form');
@@ -2921,9 +2801,6 @@
       }
 
 
-      /* ==========================================================================
-         9. Scroll to Top Behavior
-         ========================================================================== */
       const backToTopBtn = document.getElementById('back-to-top');
 
       window.addEventListener('scroll', () => {
