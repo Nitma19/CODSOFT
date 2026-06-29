@@ -1,17 +1,11 @@
-/* ==========================================================================
-   DESIGN SYSTEM & CSS VARIABLES
-   ========================================================================== */
 :root {
-    /* Fonts */
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
 
-    /* Theme transitions */
     --theme-transition: background-color 0.5s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     --animation-duration: 0.8s;
     --animation-easing: cubic-bezier(0.16, 1, 0.3, 1);
 
-    /* Layout & Spacing */
     --header-height: 80px;
     --container-width: 1200px;
     --border-radius-sm: 8px;
@@ -20,7 +14,6 @@
     --border-radius-circle: 50%;
 }
 
-/* Dark Theme (Default) */
 .dark-theme {
     --bg-primary: #0b0f19;
     --bg-secondary: #121826;
@@ -52,7 +45,6 @@
     --scrollbar-track: #0b0f19;
 }
 
-/* Light Theme */
 .light-theme {
     --bg-primary: #f8fafc;
     --bg-secondary: #ffffff;
@@ -84,9 +76,7 @@
     --scrollbar-track: #f8fafc;
 }
 
-/* ==========================================================================
-   RESET & BASE STYLES
-   ========================================================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -123,7 +113,6 @@ img {
     display: block;
 }
 
-/* Scrollbar Customization */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -142,9 +131,7 @@ img {
     background: var(--accent-color);
 }
 
-/* ==========================================================================
-   UTILITY CLASSES & TYPOGRAPHY
-   ========================================================================== */
+
 .section-container {
     max-width: var(--container-width);
     margin: 0 auto;
@@ -181,7 +168,6 @@ img {
     border-radius: var(--border-radius-sm);
 }
 
-/* Button Component */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -236,9 +222,7 @@ img {
     width: 100%;
 }
 
-/* ==========================================================================
-   HEADER & NAVIGATION
-   ========================================================================== */
+
 .header {
     position: fixed;
     top: 0;
@@ -322,7 +306,6 @@ img {
     gap: 16px;
 }
 
-/* Theme Toggle Button */
 .theme-toggle-btn {
     background: var(--bg-secondary);
     color: var(--accent-color);
@@ -344,7 +327,6 @@ img {
     box-shadow: var(--shadow-sm);
 }
 
-/* Mobile Menu Button */
 .mobile-menu-btn {
     display: none;
     flex-direction: column;
@@ -365,7 +347,6 @@ img {
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-/* Hamburger Transform to X */
 .mobile-menu-btn.active .bar:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
 }
@@ -378,7 +359,6 @@ img {
     transform: translateY(-9px) rotate(-45deg);
 }
 
-/* Mobile Nav Menu Drawer */
 .mobile-nav {
     position: fixed;
     top: var(--header-height);
@@ -418,9 +398,7 @@ img {
     transition: all 0.2s ease;
 }
 
-/* ==========================================================================
-   HERO SECTION
-   ========================================================================== */
+
 .hero-section {
     min-height: 100vh;
     display: flex;
@@ -474,7 +452,6 @@ img {
     gap: 16px;
 }
 
-/* Morphing Blob Animation */
 .hero-visual {
     position: relative;
     display: flex;
@@ -524,7 +501,6 @@ img {
     }
 }
 
-/* Mouse Scroll Indicator */
 .scroll-indicator {
     position: absolute;
     bottom: 30px;
@@ -573,9 +549,7 @@ img {
     }
 }
 
-/* ==========================================================================
-   ABOUT SECTION
-   ========================================================================== */
+
 .about-grid {
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;
@@ -684,9 +658,6 @@ img {
     letter-spacing: 0.5px;
 }
 
-/* ==========================================================================
-   SKILLS SECTION
-   ========================================================================== */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -768,9 +739,6 @@ img {
     transform: scale(1.05);
 }
 
-/* ==========================================================================
-   PROJECTS SECTION
-   ========================================================================== */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -903,9 +871,6 @@ img {
     border: 1px solid var(--card-border);
 }
 
-/* ==========================================================================
-   RESUME SECTION
-   ========================================================================== */
 .resume-section .section-container {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -921,7 +886,6 @@ img {
     box-shadow: var(--shadow-lg);
 }
 
-/* Inner glow for resume card */
 .resume-glass-card::before {
     content: '';
     position: absolute;
@@ -984,9 +948,6 @@ img {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* ==========================================================================
-   CONTACT SECTION
-   ========================================================================== */
 .contact-grid {
     display: grid;
     grid-template-columns: 0.95fr 1.05fr;
@@ -1052,7 +1013,6 @@ a.contact-value:hover {
     color: var(--accent-color);
 }
 
-/* Glassmorphism Form */
 .contact-form-panel {
     background-color: var(--card-bg);
     border: 1px solid var(--card-border);
@@ -1142,9 +1102,6 @@ a.contact-value:hover {
     color: #ef4444;
 }
 
-/* ==========================================================================
-   FOOTER
-   ========================================================================== */
 .footer {
     background-color: var(--bg-secondary);
     border-top: 1px solid var(--header-border);
@@ -1191,7 +1148,7 @@ a.contact-value:hover {
 }
 
 .footer-heading {
-    display: none; /* Hide headings for simple alignment */
+    display: none; 
 }
 
 .footer-links {
@@ -1247,9 +1204,6 @@ a.contact-value:hover {
     color: var(--text-muted);
 }
 
-/* ==========================================================================
-   SCROLL REVEAL ANIMATIONS (IntersectionObserver)
-   ========================================================================== */
 .scroll-reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -1262,7 +1216,6 @@ a.contact-value:hover {
     transform: translateY(0);
 }
 
-/* Initial static CSS animations */
 .animate-fade-in {
     animation: fadeIn 1s var(--animation-easing) forwards;
 }
@@ -1305,9 +1258,7 @@ a.contact-value:hover {
     }
 }
 
-/* ==========================================================================
-   MEDIA QUERIES (RESPONSIVE DESIGN)
-   ========================================================================== */
+
 @media (max-width: 1024px) {
     .hero-title {
         font-size: 3.2rem;
@@ -1341,16 +1292,14 @@ a.contact-value:hover {
         font-size: 0.95rem;
     }
 
-    /* Navigation */
     .nav-links {
-        display: none; /* Hide on mobile */
+        display: none; 
     }
 
     .mobile-menu-btn {
-        display: flex; /* Show hamburger */
+        display: flex; 
     }
 
-    /* Hero */
     .hero-section {
         padding-top: 100px;
         min-height: auto;
@@ -1388,7 +1337,7 @@ a.contact-value:hover {
     }
 
     .hero-visual {
-        order: -1; /* Image first on mobile */
+        order: -1; 
     }
 
     .hero-blob-wrapper {
@@ -1400,7 +1349,6 @@ a.contact-value:hover {
         display: none;
     }
 
-    /* About */
     .about-grid {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -1425,7 +1373,6 @@ a.contact-value:hover {
         padding: 16px;
     }
 
-    /* Skills */
     .skills-grid {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -1435,7 +1382,6 @@ a.contact-value:hover {
         padding: 30px 20px;
     }
 
-    /* Projects */
     .projects-grid {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -1446,7 +1392,6 @@ a.contact-value:hover {
         margin: 0 auto;
     }
 
-    /* Resume */
     .resume-glass-card {
         padding: 40px 24px;
     }
@@ -1459,7 +1404,6 @@ a.contact-value:hover {
         font-size: 0.95rem;
     }
 
-    /* Contact */
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -1478,7 +1422,6 @@ a.contact-value:hover {
         gap: 20px;
     }
 
-    /* Footer */
     .footer-links-wrapper {
         flex-direction: column;
         gap: 24px;
